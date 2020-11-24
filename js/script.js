@@ -13,7 +13,7 @@ function calcularIMC() {
     if (valorPeso <= 0) {
         alert("Peso não pode ser nagativo");
     } else if (valorAltura <= 0) {
-        alert("Peso não pode ser nagativo");
+        alert("Altura não pode ser nagativo");
     } else {
         var IMC = valorPeso / (valorAltura * valorAltura);
         resultado.textContent = IMC.toFixed(2);
